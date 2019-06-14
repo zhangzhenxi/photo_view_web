@@ -1,21 +1,21 @@
 library photo_view;
 
 import 'dart:async';
-import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:photo_view/src/photo_view_computed_scale.dart';
-import 'package:photo_view/src/photo_view_controller.dart';
-import 'package:photo_view/src/photo_view_controller_delegate.dart';
-import 'package:photo_view/src/photo_view_image_wrapper.dart';
-import 'package:photo_view/src/photo_view_scale_state.dart';
-import 'package:after_layout/after_layout.dart';
-import 'package:photo_view/src/photo_view_typedefs.dart';
-import 'package:photo_view/src/photo_view_utils.dart';
+import 'package:flutter_web/material.dart';
+import 'package:flutter_web/widgets.dart';
+import 'package:photo_view_web/src/photo_view_computed_scale.dart';
+import 'package:photo_view_web/src/photo_view_controller.dart';
+import 'package:photo_view_web/src/photo_view_controller_delegate.dart';
+import 'package:photo_view_web/src/photo_view_image_wrapper.dart';
+import 'package:photo_view_web/src/photo_view_scale_state.dart';
+import 'package:photo_view_web/after_layout.dart';
+import 'package:photo_view_web/src/photo_view_typedefs.dart';
+import 'package:photo_view_web/src/photo_view_utils.dart';
 
-export 'package:photo_view/src/photo_view_computed_scale.dart';
-export 'package:photo_view/src/photo_view_scale_state.dart';
-export 'package:photo_view/src/photo_view_controller.dart';
-export 'package:photo_view/src/photo_view_typedefs.dart';
+export 'package:photo_view_web/src/photo_view_computed_scale.dart';
+export 'package:photo_view_web/src/photo_view_scale_state.dart';
+export 'package:photo_view_web/src/photo_view_controller.dart';
+export 'package:photo_view_web/src/photo_view_typedefs.dart';
 
 /// A [StatefulWidget] that contains all the photo view rendering elements.
 ///

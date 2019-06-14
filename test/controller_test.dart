@@ -1,7 +1,6 @@
-import 'dart:ui';
-
-import 'package:photo_view/src/photo_view_controller.dart';
+import 'package:photo_view_web/src/photo_view_controller.dart';
 import 'package:test/test.dart';
+import 'package:flutter_web_ui/ui.dart';
 
 void main() {
   PhotoViewController controller;
